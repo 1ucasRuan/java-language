@@ -12,5 +12,8 @@ public class Usuario {
         smartTv.desligar();
         System.out.println("Tv está ligada?" + smartTv.ligada);
 
+        smartTv.aumentarVolume();
+        System.out.println("Volume atual?" + smartTv.volume);
+
     }
 }
