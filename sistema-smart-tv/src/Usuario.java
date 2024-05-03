@@ -19,7 +19,7 @@ public class Usuario {
         smartTv.mudarCanal(13);
         System.out.println("Canal atual?" + smartTv.canal);
 
-        System.out.println("Informe o canal: ");
+        System.out.println("Informe o canal desejado: ");
         novoCanal = teclado.nextInt();
         smartTv.mudarCanal(novoCanal);
 
