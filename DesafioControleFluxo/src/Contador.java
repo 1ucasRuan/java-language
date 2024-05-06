@@ -6,6 +6,7 @@ public class Contador {
         Scanner teclado = new Scanner(System.in);
 		System.out.println("Digite o primeiro parâmetro");
 		int parametroUm = teclado.nextInt();
+
 		System.out.println("Digite o segundo parâmetro");
 		int parametroDois = teclado.nextInt();
 		
@@ -20,13 +21,12 @@ public class Contador {
 
     static void contar(int parametroUm, int parametroDois ) throws ParametrosInvalidosException {
 		//validar se parametroUm é MAIOR que parametroDois e lançar a exceção
-		
+        if(parametroUm > parametroDois){
+            throw new ParametrosInvalidosException();
+        }
+        		
 		int contagem = parametroDois - parametroUm;
 		//realizar o for para imprimir os números com base na variável contagem
-	}
-
-    static void ParametrosInvalidosException(int parametroUm, int parametroDois){
-        throw new ParametrosInvalidosException();
         
-    }
+	}
 }
