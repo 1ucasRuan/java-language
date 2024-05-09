@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+D:\Lucas Ruan\Faculdade\Andamento\Estrutura de dados\Atividades\Atividade Java\.metadata\.plugins\org.eclipse.jdt.core
-347622116.index
-2121231006.index
