@@ -1,32 +1,31 @@
 import java.util.Scanner;
 
 public class ContaTerminal {
+
+    public static void menuInicio() {
+        System.out.print("Inicio");
+    }
+
     public static void main(String[] args) throws Exception {
-        Scanner teclado = new Scanner(System.in);
-
-        int numero; 
-        String agencia; 
-        String nomeCliente; 
-        Double saldo;
+        Scanner teclado = new Scanner(System.in); 
+        double saldo = 0; 
+        // Loop infinito para manter o programa em execução até que o usuário decida sair
         
-        System.out.print("Informe seu nome: ");
-        nomeCliente = teclado.nextLine();
-
-        System.out.print("Informe a agencia: ");
-        agencia = teclado.nextLine();
-
-        System.out.print("Informe o numero da conta: ");
-        numero = teclado.nextInt();
-
-        System.out.print("Informe seu saldo: ");
-        saldo = teclado.nextDouble();
-
-        System.out.println("Olá " + nomeCliente +  " obrigado por criar uma conta em nosso banco, sua agência é " + agencia + " "+ numero + " e seu saldo " + saldo + " já está disponível para saque");
-
+        while (true) { 
+            String menu = menuInicio();
+            int opcao = scanner.nextInt(); 
+            // TODO: Implemente as condições necessárias para avaliaa a opção escolhida:
+            // Dica: Utilze o switch/case para o programa realizar as operações escolhidas pelo usuário.
+            
+        
+        
+            // Exibe mensagem de opção inválida se o usuário escolher uma opção inválida:    
+        default:
+            System.out.println("Opção inválida. Tente novamente."); 
+        }
         teclado.close();
 
-        //implementar orientação a objetos;
-        //implementar listas ou matrizes;        
+    // implementar orientação a objetos;
+    // implementar listas ou matrizes;
 
-    }
-}
+}}
