@@ -20,7 +20,7 @@ public class Principal {
 			System.out.println("6 - Listar livros emprestados");
 			System.out.println("7 - Sair.");
 			System.out.println("");
-			System.out.print("Insira sua opção: ");
+			System.out.print("Insira sua opï¿½ï¿½o: ");
 			opcao = input.nextInt();
 			input.nextLine();
 			System.out.println("");
@@ -78,11 +78,11 @@ public class Principal {
 				break;
 
 			default:
-				System.out.println("Opção não encontrada!");
+				System.out.println("Opï¿½ï¿½o nï¿½o encontrada!");
 				System.out.println("");
 				break;
 			}
-
+		input.close();;
 		}
 	}
 }
