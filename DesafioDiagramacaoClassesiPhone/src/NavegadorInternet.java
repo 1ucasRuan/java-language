@@ -4,4 +4,3 @@ public interface NavegadorInternet {
     void adicionarNovaAba();
     void atualizarPagina();
 }
-}
